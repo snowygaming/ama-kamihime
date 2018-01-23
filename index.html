@@ -16,7 +16,7 @@
 
     <!-- Custom CSS -->
     <link href="css/ama.css" rel="stylesheet">
-    <link href="css/ama2.css" rel="stylesheet">
+    <link href="css/ama-custom.css" rel="stylesheet">
     
     <!-- favicon -->
     <link rel="shortcut icon" href="img/favicon.ico">
@@ -40,35 +40,7 @@
 	<script language="Javascript" type="text/javascript" src="js/smoothPageScroll.js"></script>
 		
 	<style>
-        .flip3D{ width:240px; height:200px; margin:10px; float:left; }
-        .flip3D > .front{
-        	position:absolute;
-        	-webkit-transform: perspective( 600px ) rotateY( 0deg );
-        	transform: perspective( 600px ) rotateY( 0deg );
-        	background:#FC0; width:240px; height:200px; border-radius: 7px;
-        	-webkit-backface-visibility: hidden;
-        	backface-visibility: hidden;
-        	transition: -webkit-transform .5s linear 0s;
-        	transition: transform .5s linear 0s;
-        }
-        .flip3D > .back{
-        	position:absolute;
-        	-webkit-transform: perspective( 600px ) rotateY( 180deg );
-        	transform: perspective( 600px ) rotateY( 180deg );
-        	background: #80BFFF; width:240px; height:200px; border-radius: 7px;
-        	-webkit-backface-visibility: hidden;
-        	backface-visibility: hidden;
-        	transition: -webkit-transform .5s linear 0s;
-        	transition: transform .5s linear 0s;
-        }
-        .flip3D:hover > .front{
-        	-webkit-transform: perspective( 600px ) rotateY( -180deg );
-        	transform: perspective( 600px ) rotateY( -180deg );
-        }
-        .flip3D:hover > .back{
-        	-webkit-transform: perspective( 600px ) rotateY( 0deg );
-        	transform: perspective( 600px ) rotateY( 0deg );
-        }
+        
     </style>
 </head>
 
@@ -98,16 +70,13 @@
                         <a class="page-scroll" href="/">Home</a>
                         </li>
                         <li>
-                          <a class="page-scroll" href="#about">About Us</a>
+                          <a class="page-scroll" href="#who">About Us</a>
                         </li>
                         <li>
-                          <a class="page-scroll" href="#join">join us</a>
+                          <a class="page-scroll" href="hall.html">Union Hall</a>
                         </li>
                         <li>
-                          <a class="page-scroll" href="stream.html">LiveSteam</a>
-                        </li>
-                        <li>
-                          <a class="page-scroll" href="http://xamaterasux.enjin.com/">Forum</a>
+                          <a class="page-scroll" href="https://discord.gg/XvYV9BS">Join Discord</a>
                         </li>
                     </ul>
                 </div>
@@ -125,269 +94,130 @@
         <div class="intro-body">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <div class="logo"></div>
-                        <a href="#class" class="page-scroll">
-                            <i class="fa fa-chevron-down"></i>
-                        </a>
+                    <div class="col">
+                        <img src="img/kh_dark/thor_awakened.png" class="img-responsive center-block" />
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <div class="sep_wh_bot sep_trans sep_abs iefix"></div>
-    
-    <!-- Class Section -->
-    <section id="class" class="class text-center">
-        
-        <div class="container">
-            <div class="">
-                <div class="col-xs-6 col-sm-3">
-                    <div class="counter_holder center"><span class="counter">12</span></div>
-                    <h4><span>Lancer</span></h4>
-                </div>
-                <div class="col-xs-6 col-sm-3">
-                    <div class="counter_holder center"><span class="counter">20</span></div>
-                    <h4><span>Warrior</span></h4>
-                </div>
-                <div class="col-xs-6 col-sm-3">
-                    <div class="counter_holder center"><span class="counter">6</span></div>
-                    <h4><span>Berserker</span></h4>
-                </div>
-                <div class="col-xs-6 col-sm-3">
-                    <div class="counter_holder center"><span class="counter">12</span></div>
-                    <h4><span>Gunner</span></h4>
-                </div>
-                <div class="col-xs-6 col-sm-3">
-                    <div class="counter_holder center"><span class="counter">6</span></div>
-                    <h4><span>Reaper</span></h4>
-                </div>
-                <div class="col-xs-6 col-sm-3">
-                    <div class="counter_holder center"><span class="counter">3</span></div>
-                    <h4><span>Slayer</span></h4>
-                </div>
-                <div class="col-xs-6 col-sm-3">
-                    <div class="counter_holder center"><span class="counter">2</span></div>
-                    <h4><span>Archer</span></h4>
-                </div>
-                <div class="col-xs-6 col-sm-3">
-                    <div class="counter_holder center"><span class="counter">3</span></div>
-                    <h4><span>Sorcerer</span></h4>
-                </div>
-                <div class="col-xs-6 col-sm-3">
-                    <div class="counter_holder center"><span class="counter">20</span></div>
-                    <h4><span>Priest</span></h4>
-                </div>
-                <div class="col-xs-6 col-sm-3">
-                    <div class="counter_holder center"><span class="counter">3</span></div>
-                    <h4><span>Mystic</span></h4>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <div class="sep_wh_top sep_trans iefix"></div>
-    
-
-
-    <!-- About Section -->
-    <section id="about" class="text-center">
-        <div class="parallax-window-bg" data-parallax="scroll" data-image-src="img/about-bg2.jpg"></div>
-    </section>
-
-    <div class="sep_wh_bot sep_trans sep_abs iefix"></div>
-    
-	<!-- Who Section -->
-    <section id="who" class="light-section text-center">
-        <div class="container text-left">
-            <h2><span class="stretch">Who we are</span></h2><br>
-            <h2>Game &#58; <span style="color: #ff0000;">tera</span></h2>
-            <p> Amaterasu has been around for almost a year now. Beginning first as a love child of two separate guilds; Koori no Okami and Neverland.  Koori no Okami; a guild known for its complicated name and love of Abscess hard mode.  Neverland; a small guild of mostly EU gamers. Responsible for Surgeon first Archer, who later wisened up and changed class.  It's then at the time during Tera's patch the "Wounded World," that we found each other. Sheltering more than a dozen Surgeon's and Determined. Setting our eyes on the new Shiny title and Vision Maker gear that awaits us around the corner.  We began as a guild. We became a guild of friends. Now inseparable, we tackle endgame content together and continue to recruit new friends along the way...though the story doesn't end there.</p>
-            <br><br>
-        </div>
-    </section>
-
-    <div class="sep_bl_bot sep_trans sep_abs iefix"></div>
-    
-    <!-- Where Section -->
-    <section id="where" class="dark-section">
-        <div class="container text-left">
-            <h2><span class="stretch">Where we are</span></h2><br>
-            <h2>region &#58; <span style="color: #ff0000;">na</span></h2>
-            <h2>SERVER &#58; <span style="color: #ff0000;">Mount Tyrannas</span></h2>
-        </div>
-    </section>
-	
     <div class="sep_bl_top sep_trans iefix"></div>
 
-    <!-- Leader Section -->
-    <section id="leader" class="">
-        <div class="">
-            <div class="parallax-window" data-parallax="scroll" data-image-src="img/leader/shanax-flat.jpg"></div>
-            <div class="sep_wh_bot sep_trans sep_abs iefix"></div>
-            <div class="flat">
-                <div class="col-md-10 col-md-offset-1 text-left">
-                    <h1>shanax / <span style="color: #ff0000;">Guild Master</span></h1>
-                    <h4>CLASS / <span style="color: #ff0000;">GUNNER</span></h4>
-                </div>
-            </div>
-            <div class="sep_wh_top sep_trans iefix"></div>
-            
-            <div class="parallax-window" data-parallax="scroll" data-image-src="img/leader/family-flat.jpg"></div>
-            <div class="sep_wh_bot sep_trans sep_abs iefix"></div>
-            <div class="flat">
-                <div class="col-md-4 col-md-offset-7 text-left">
-                    <h1>Family / <span style="color: #ff0000;">Leader</span></h1>
-                    <h4>CLASS / <span style="color: #ff0000;">PRIEST</span></h4>
-                </div>
-            </div>
-            <div class="sep_wh_top sep_trans iefix"></div>
-            
-            <div class="parallax-window" data-parallax="scroll" data-image-src="img/leader/greenstrike-flat.jpg"></div>
-            <div class="sep_wh_bot sep_trans sep_abs iefix"></div>
-            <div class="flat">
-                <div class="col-md-4 col-md-offset-7 text-left">
-                    <h1>Greenstrike / <span style="color: #ff0000;">Leader</span></h1>
-                    <h4>CLASS / <span style="color: #ff0000;">Reaper</span></h4>
-                </div>
-            </div> 
-            <div class="sep_wh_top sep_trans iefix"></div>
-            
-            <div class="parallax-window" data-parallax="scroll" data-image-src="img/leader/vio-flat.jpg"></div>
-            <div class="sep_wh_bot sep_trans sep_abs iefix"></div>
-            <div class="flat">
-                <div class="col-md-4 col-md-offset-7 text-left">
-                    <h1>Vio / <span style="color: #ff0000;">Leader</span></h1>
-                    <h4>CLASS / <span style="color: #ff0000;">Warrior</span></h4>
-                </div>
-            </div> 
-            <div class="sep_wh_top sep_trans iefix"></div>
-            
-            <div class="parallax-window" data-parallax="scroll" data-image-src="img/leader/snowy-flat.jpg"></div>
-            <div class="sep_wh_bot sep_trans sep_abs iefix"></div>
-            <div class="flat">
-                <div class="col-md-4 col-md-offset-7 text-left">
-                    <h1>snowy / <span style="color: #ff0000;">evilgenius</span></h1>
-                    <h4>CLASS / <span style="color: #ff0000;">PRIEST</span></h4>
-                </div>
-            </div>
-            <div class="sep_wh_top sep_trans iefix"></div>
-            
-            <div class="parallax-window" data-parallax="scroll" data-image-src="img/leader/sleepyhead-flat.jpg"></div>
-            <div class="sep_wh_bot sep_trans sep_abs iefix"></div>
-            <div class="flat">
-                <div class="col-md-4 col-md-offset-7 text-left">
-                    <h1>sleepyhead / <span style="color: #ff0000;">sleepy</span></h1>
-                    <h4>CLASS / <span style="color: #ff0000;">reaper</span></h4>
-                </div>
-            </div>
-            <div class="sep_wh_top sep_trans iefix"></div>
-            
-            <div class="parallax-window" data-parallax="scroll" data-image-src="img/leader/hemmingway-flat.jpg"></div>
-            <div class="sep_wh_bot sep_trans sep_abs iefix"></div>
-            <div class="flat">
-                <div class="col-md-4 col-md-offset-7 text-left">
-                    <h1>hemmingway / <span style="color: #ff0000;">BM</span></h1>
-                    <h4>CLASS / <span style="color: #ff0000;">Slayer</span></h4>
-                </div>
-            </div>    
-            <div class="sep_wh_top sep_trans iefix"></div>
-            
-            <div class="parallax-window" data-parallax="scroll" data-image-src="img/leader/pomchi-flat.jpg"></div>
-            <div class="sep_wh_bot sep_trans sep_abs iefix"></div>
-            <div class="flat">
-                <div class="col-md-4 col-md-offset-7 text-left">
-                    <h1>pomchi / <span style="color: #ff0000;">thee archer</span></h1>
-                    <h4>CLASS / <span style="color: #ff0000;">archer</span></h4>
-                </div>
-            </div>
-            
-            <div class="sep_wh_top sep_trans iefix"></div>
-            
-            <div class="parallax-window" data-parallax="scroll" data-image-src="img/leader/diehard-flat.jpg"></div>
-            <div class="sep_wh_bot sep_trans sep_abs iefix"></div>
-            <div class="flat">
-                <div class="col-md-4 col-md-offset-7 text-left">
-                    <h1>diehard / <span style="color: #ff0000;">friendly</span></h1>
-                    <h4>CLASS / <span style="color: #ff0000;">lancer</span></h4>
-                </div>
-            </div>
-            
-            <div class="sep_wh_top sep_trans iefix"></div>
+    <!-- Leader -->
+    <section id="leader" class="leader">
+        <div class="container">
+            <h1>BakaHentai / <span style="color: #ff0000;">Leader</span></h1>
+            <img src="img/kh_dark/satan_awakened.png" class="img-responsive center-block" />
+        </div>
         
-        <div class="parallax-window" data-parallax="scroll" data-image-src="img/leader/adriel-flat.jpg"></div>
-            <div class="sep_wh_bot sep_trans sep_abs iefix"></div>
-            <div class="flat">
-                <div class="col-md-4 col-md-offset-7 text-left">
-                    <h1>adriel / <span style="color: #ff0000;">the shitter</span></h1>
-                    <h4>CLASS / <span style="color: #ff0000;">Priest</span></h4>
-                </div>
-            </div>
-            
-            <div class="sep_wh_top sep_trans iefix"></div>
+        <br>
+        <div class="sep_bl_bot sep_trans sep_abs iefix"></div>
+        <div class="sep_bl_top sep_trans iefix"></div>
+        <br>
+ 
+        <div class="container">
+            <h1>shanax / <span style="color: #ff0000;">Leader</span></h1>
+            <img src="img/kh_dark/susanoo_awakened.png" class="img-responsive center-block" />
+        </div>       
+
         
+        
+    </section>
+    
+    <div class="sep_bl_bot sep_trans sep_abs iefix"></div>
+  
+    <!-- Showcase -->
+    <section id="showcase" class="showcase">
+        <div class="container">
+            <h1><span style="color: #ff0000;">5th Union Event: </span>Crucible of Combat vs The Demon: Gluttony</h1>
+            <img src="img/event/5_union_event_banner.jpg" class="img-responsive center-block" /><br>
+            <h1>Total - 311.53 Million PP</h1><br>
+            <h2><span style="color: #ff0000;">Rank #1 / </span>Air (54,37 million PP PP)</h2>
+            <img src="img/event/5_union_event_air.png" class="img-responsive center-block" /><br><br>
+            <img src="img/kh_light/tsukuyomi.png" class="img-responsive center-block" />
+        </div>
+        <div class="container">
+            <h2><span style="color: #ff0000;">Rank #2 / </span>Sithreal (27.66 Million PP)</h2>
+            <img src="img/event/5_union_event_sith.png" class="img-responsive center-block" /><br><br>
+            <img src="img/kh_dark/uriel.png" class="img-responsive center-block" />
+        </div>
+        <div class="container">
+            <h2><span style="color: #ff0000;">Rank #3 / </span>Shiroe (22.29 million PP)</h2>
+            <img src="img/event/5_union_event_shiroe.png" class="img-responsive center-block" /><br><br>
+            <img src="img/kh_dark/azazel.png" class="img-responsive center-block" />
         </div>
     </section>
     
-     <!-- Join Section -->
-    <section id="join" class="join text-center">
-        <div class="container text-left" style="margin-top: 100px;">
-            <h2><span class="stretch">Join Us</span></h2><br>
-            <h4 style="text-transform: none;"><span>Recruitment is now open for experienced players. Hit us up if you want to join the best and most entertaining PVE Guild in Tera NA.</span></h4>
+    <div class="sep_wh_bot sep_trans sep_abs iefix"></div>
+            
+    <!-- Who Section -->
+    <section id="who" class="light-section">
+        <div class="container">
+            <h3><span class="stretch">Who we are</span></h3><br>
+            <p><b>
+                We strive to stand out, to be the best, and lead by example.<br>
+                Integrity. Honor. Strength. These are the words we embrace and play by. <br>
+                Farm smart, not hard. Work together and have fun doing it. <br>
+                <span style="color: #ff0000;">We are Amaterasu.    </span> 
+            </b></p>
+        </div>
+    </section>
+    
+    
+    <br><br>
+    <div class="sep_bl_bot sep_trans sep_abs iefix"></div>
+    
+    
+    <!-- Rule Section -->
+    <section id="rule" class="dark-section">
+        <div class="container text-left">
+            <h3><span class="stretch">Union Raid Rule</span></h3><br>
+            <div class="row text-center">
+                <span style="color: #ff0000;">
+                <div class="col-md-4"><p><b>You Must Clear All Individual PP Rewards</b></p></div>
+                <div class="col-md-4"><p><b>You Must Be Active And Willing To Follow Instructions</b></p></div>
+                <div class="col-md-4"><p><b>Farming 14 Grails A Day Is Required. No More, No Less.</b></p></div>
+                </span>
+            </div>
+        </div>
+    </section>
+    
+    
+    <div class="sep_bl_top sep_trans iefix"></div>
+    <br><br><br>
+    
+    <!-- Join Section -->
+    <section id="join" class="light-section">
+        <div class="container text-left">
+            <h3><span class="stretch">Join Us</span></h3><br>
+            <p><b>Recruitment is now open for experienced players. Hit us up if you want to join the best Kamihime Union in NA.</b></p>
             <br>
             
-            <h4><span style="color: #ff0000;">minimum requirements / </span>
+            <h4><span style="color: #ff0000;">minimum requirements / </span></h4>
+            <h4>
                 <div>
                     <u2 style="text-transform: none;">
-                        <li>+12 Schisma weapon/gloves +9 chest/boots</li>
-                        <li>Perm Etching II / 4/2 | 4/4 accessories</li>
-                        <li>Blue innerwear</li>
-                        <li>Pass DPS test</li>
+                        <li>Rank 85+ is strongly preferred</li>
+                        <li>Able to clear all event rewards</li>
+                        <li>Able to clear all Advent Ragnarok Battles</li>
+                        <li>Strong enough to solo most Ragnarok Raids</li>
+                        <li>3 or more teams that can clear stage 3+ Accessory quests</li>
                     </u2>
                 </div>
             </h4>
-            <h4><span style="color: #ff0000;">in game contact / </span><span style="text-transform: none;">Family, Greenstrike, Vio, Xpect</span></h4>
+            <h4><span>Apply On Discord @ </span><span style="text-transform: none;"><a href="https://discord.gg/XvYV9BS">Discord.gg/XvYV9BS</a></span></h4>
         </div>
     </section>
-
-
-    <div class="sep_bl_top sep_trans iefix"></div>
-        
-    <!-- rule Section -->
-    <section id="rule" class="rule light-section text-center">
-      
-        <div class="container container-fluid text-left">
-            <h2><span class="stretch">guild rules</span></h2><br>
-            <div class="row">
-                <div class="col-md-4">    
-                    <div class="flip3D">
-                        <div class="back"><img src="img/1_b.jpg"></div>
-                        <div class="front"><img src="img/1.jpg"></div>
-                    </div>
-                </div>
-                <div class="col-md-4">  
-                    <div class="flip3D">
-                        <div class="back"><img src="img/2_b.jpg"></div>
-                        <div class="front"><img src="img/2.jpg"></div>
-                    </div> 
-                </div>
-                <div class="col-md-4">  
-                    <div class="flip3D">
-                        <div class="back"><img src="img/3_b.jpg"></div>
-                        <div class="front"><img src="img/3.jpg"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    
+    
+    <br>
     <div class="sep_bl_bot sep_trans sep_abs iefix"></div>
     
     <!-- Footer -->
     <footer id="footer" class="dark">
         <div class="container text-center">
-            <span>Site created by <a href="http://www.snowy.io">Snowy Design Group</a></span> | <span>Copyright &copy; Snowy Corporation 2015</span>
+            <span>Site created by <span style="color: #ff0000;">Snowy Design Group</span></span> | <span>Copyright &copy; Snowy Corporation 2018</span>
         </div>
     </footer>
 
