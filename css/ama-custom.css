@@ -91,5 +91,26 @@
 }
 
 
+#rosterbanner {
+    display: table;
+    width: 100%;
+    height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background: url(../img/kh_light/furfur.png) no-repeat center right;
+}
 
 
+#rosterfooter {
+    display: table;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background: url(../img/kh_light/fafnir.png) no-repeat center left;
+}

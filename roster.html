@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Amaterasu</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/ama.css" rel="stylesheet">
+    <link href="css/ama-custom.css" rel="stylesheet">
+    
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- jQuery -->
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+	<script language="Javascript" type="text/javascript" src="js/smoothPageScroll.js"></script>
+		
+    <script>
+        var montharray=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
+        
+        function countup(yr,m,d){
+        var today=new Date()
+        var todayy=today.getYear()
+        if (todayy < 1000)
+        todayy+=1900
+        var todaym=today.getMonth()
+        var todayd=today.getDate()
+        var todaystring=montharray[todaym]+" "+todayd+", "+todayy
+        var paststring=montharray[m-1]+" "+d+", "+yr
+        var difference=(Math.round((Date.parse(todaystring)-Date.parse(paststring))/(24*60*60*1000))*1)
+        difference+=" days"
+        document.write("Joined on "+m+"/"+d+"/"+yr+". In the union for "+difference+".")
+        }
+    //enter the count up date using the format year/month/day
+    
+    </script>
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    
+    <!-- Navigation -->
+    <section id="nav">
+        <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <div class="nav-logo"></div>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="/">
+                        <span class="">&nbsp;Amaterasu</span>
+                    </a>
+                </div>
+                
+                 <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>                  
+                        <li>
+                            <a class="page-scroll" href="/">Home</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="hall.html">Union Hall</a>
+                        </li>
+                        <li>
+                          <a class="page-scroll" href="https://discord.gg/XvYV9BS">Join Discord</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+                
+            </div>
+            <!-- /.container -->
+        </nav>
+    </section>
+    
+    <div style="background-color: #000;height:50px;"><div class="sep_bl_top sep_trans iefix" style="height: 150px;"></div></div>
+    <br><br>
+    
+    <!-- Banner Section -->
+    <section id="rosterbanner" class="light-section">
+        <div class="container">
+            <br><br>
+            <h1>roster<span style="color: #ff0000;"></span></h1>
+            <br><br>
+        </div>
+    </section>
+    
+    <br>
+    <div class="sep_bl_bot sep_trans sep_abs iefix"></div>
+    
+    <section id="roster" class="dark-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6" style="vertical-align: middle;">
+                    <h2>air<br><span style="color: #ff0000;"></span></h2>
+                    <script>countup(2018,01,17)</script>
+                    <img src="img/kh_light/tsukuyomi.png" class="img-responsive center-block" /><br><br>
+                </div>
+                <div class="col-md-4 col-sm-6" style="vertical-align: middle;">
+                    <h2>Sithrael<br><span style="color: #ff0000;"></span></h2>
+                    <script>countup(2017,01,17)</script>
+                    <img src="img/kh_dark/uriel.png" class="img-responsive center-block" /><br><br>
+                </div>  
+                <div class="col-md-4 col-sm-6" style="vertical-align: middle;">
+                    <h2>air<br><span style="color: #ff0000;"></span></h2>
+                    <script>countup(2018,01,01)</script>
+                    <img src="img/kh_dark/sol_awakened.png" class="img-responsive center-block" /><br><br>
+                </div>  
+                <div class="col-md-4 col-sm-6" style="vertical-align: middle;">
+                    <h2>air<br><span style="color: #ff0000;"></span></h2>
+                    <script>countup(2018,01,17)</script>
+                    <img src="img/kh_dark/sol_awakened.png" class="img-responsive center-block" /><br><br>
+                </div>  
+            </div>
+        </div>     
+    </section>
+        
+    <div class="sep_bl_top sep_trans iefix"></div>
+
+    
+    <section id="rosterfooter" class="light-section">
+        <div class="container">
+            <br><br><br><br><br><br><br><br><br>
+        </div>
+    </section>
+    
+
+    <div class="sep_bl_bot sep_trans sep_abs iefix"></div>
+    
+    
+    
+    <!-- Footer -->
+    <div id="" class="dark-section">
+        <div class=" text-center">
+            <img src="img/thank_you.png" class="img-responsive center-block" style="max-width:300px;"/>
+            <span>Site created by <span style="color: #ff0000;">Snowy Design Group</span></span> | <span>Copyright &copy; Snowy Corporation 2018</span>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/parallax.min.js"></script>	
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/ama.js"></script>
+
+</body>
+
+</html>
