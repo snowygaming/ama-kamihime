@@ -114,3 +114,12 @@
     -o-background-size: cover;
     background: url(../img/kh_light/fafnir.png) no-repeat center left;
 }
+
+#roster h2 {
+    margin: 0 0 0px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
